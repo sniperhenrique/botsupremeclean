@@ -1,8 +1,8 @@
 const Discord = require("discord.js")
 
 module.exports = {
-    name: "clear", // Coloque o nome do comando
-    description: "[Moderação] Use para apagar um certo numero de mensagens!", // Coloque a descrição do comando
+    name: "clear", 
+    description: "[Moderação] Use para apagar um certo numero de mensagens!", 
     type: Discord.ApplicationCommandType.ChatInput,
     options: [
         {
@@ -40,7 +40,7 @@ module.exports = {
 
                 interaction.reply({ embeds: [embed] })
 
-                let apagar_mensagem = "nao" // sim ou nao
+                let apagar_mensagem = "nao" 
 
                 if (apagar_mensagem === "sim") {
                     setTimeout(() => {
