@@ -1,8 +1,8 @@
 const Discord = require("discord.js")
 
 module.exports = {
-  name: "ping", // Coloque o nome do comando
-  description: "[Utilitarios] Veja o ping do bot.", // Coloque a descrição do comando
+  name: "ping", 
+  description: "[Utilitarios] Veja o ping do bot.", 
   type: Discord.ApplicationCommandType.ChatInput,
 
   run: async (client, interaction) => {
