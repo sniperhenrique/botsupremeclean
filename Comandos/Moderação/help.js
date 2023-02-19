@@ -1,8 +1,8 @@
 const Discord = require("discord.js")
 
 module.exports = {
-  name: "help", // Coloque o nome do comando
-  description: "Painel de comandos do bot.", // Coloque a descrição do comando
+  name: "help", 
+  description: "Painel de comandos do bot.", 
   type: Discord.ApplicationCommandType.ChatInput,
 
   run: async (client, interaction) => {
