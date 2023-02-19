@@ -1,13 +1,13 @@
 const Discord = require("discord.js")
 
 module.exports = {
-  name: "botinfo", // Coloque o nome do comando
-  description: "[Comandos BOT] Fornece informações sobre o bot.", // Coloque a descrição do comando
+  name: "botinfo", 
+  description: "[Comandos BOT] Fornece informações sobre o bot.", 
   type: Discord.ApplicationCommandType.ChatInput,
 
   run: async (client, interaction) => {
 
-    let dono = "471406814374658048"; // Coloque seu ID
+    let dono = "471406814374658048"; 
     let membros = client.users.cache.size;
     let servidores = client.guilds.cache.size;
     let canais = client.channels.cache.size;
