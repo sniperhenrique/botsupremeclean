@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const DONO = "471406814374658048"; // Coloque seu ID
+const DONO = "471406814374658048"; 
 
 module.exports = {
     name: "setstatus",
@@ -8,13 +8,13 @@ module.exports = {
         {
             type: Discord.ApplicationCommandOptionType.String,
             name: "status",
-            description: "Qual estilo você deseja aplicar (online, dnd, idle, invisible)?",
+            description: "Defina um status (online, dnd, idle, invisible)?",
             required: true,
         },
         {
             type: Discord.ApplicationCommandOptionType.String,
             name: "descrição",
-            description: "Qual será a descrição do status?",
+            description: "Qual será a descrição do meu status?",
             required: true,
         }
     ],
