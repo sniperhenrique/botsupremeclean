@@ -1,8 +1,8 @@
 const Discord = require("discord.js")
 
 module.exports = {
-  name: "say", // Coloque o nome do comando
-  description: "[Utilitarios] Faça eu falar", // Coloque a descrição do comando
+  name: "say",
+  description: "[Utilitarios] Faça eu falar", 
   type: Discord.ApplicationCommandType.ChatInput,
   options: [
     {
