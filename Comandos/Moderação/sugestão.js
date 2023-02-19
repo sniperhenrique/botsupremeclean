@@ -1,8 +1,8 @@
 const Discord = require("discord.js")
 
 module.exports = {
-  name: "sugerir", // Coloque o nome do comando
-  description: "[Moderação] Faça sua sugestão.", // Coloque a descrição do comando
+  name: "sugerir", /
+  description: "[Moderação] Faça sua sugestão.", 
   type: Discord.ApplicationCommandType.ChatInput,
   options: [
     {
@@ -15,7 +15,7 @@ module.exports = {
 
   run: async (client, interaction) => {
 
-    let canal = interaction.guild.channels.cache.get("1058771185703338137") // Canal de sugestões do servidor
+    let canal = interaction.guild.channels.cache.get("1058771185703338137") 
     if (!canal) {
         interaction.reply(`Olá ${interaction.user}, o canal de sugestões ainda não foi configurado no script!`)
     } else {
