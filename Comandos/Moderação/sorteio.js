@@ -2,8 +2,8 @@ const Discord = require("discord.js");
 const ms = require("ms");
 
 module.exports = {
-  name: "sorteio", // Coloque o nome do comando
-  description: "[Moderação] Crie um sorteio no servidor", // Coloque a descrição do comando
+  name: "sorteio", 
+  description: "[Moderação] Crie um sorteio no servidor", 
   type: Discord.ApplicationCommandType.ChatInput,
   options: [
     {
